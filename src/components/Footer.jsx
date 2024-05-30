@@ -1,6 +1,8 @@
 import React from "react";
 import {motion} from 'framer-motion';
 import { slideIn } from "../utils/motion";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebookF, faGithub, faLinkedin, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
     return(
@@ -15,36 +17,24 @@ const Footer = () => {
                     </label>
                 </div>
 
-                <div className="w-auto h-[150px]">
+                <div className="w-auto h-[60px]">
 
-                <div class="container p-4 pb-0">
-
-    <section class="mb-4">
-
-      <a data-mdb-ripple-init class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-facebook-f"></i></a>
-
-
-      <a data-mdb-ripple-init class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-twitter"></i></a>
-
-  
-      <a data-mdb-ripple-init class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-google"></i></a>
-
-     
-      <a data-mdb-ripple-init class="btn btn-outline-light btn-floating m-1" href="#!" role="button" ><i class="fab fa-instagram"></i></a>
-
-   
-      <a data-mdb-ripple-init class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-linkedin-in"></i></a>
-
-   
-      <a data-mdb-ripple-init class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-github"></i></a>
-    </section>
-
-  </div>
+                <footer>
+                    <div className="flex flex-row mt-7 justify-center item-center gap-10 sm:pl-14 sm:pr-14">
+                        <a href="https://www.facebook.com/Vidusah D Ariyarathna" target="_blank" rel="noopener noreferrer" >
+                        <FontAwesomeIcon icon={faFacebookF} size="2x" />
+                        </a>
+                        <a href="https://github.com//pgvda" target="_blank" rel="noopener noreferrer" >
+                        <FontAwesomeIcon icon={faGithub} size="2x" />
+                        </a>
+                        <a href="https://www.linkedin.com/in/vidusha dilshan" target="_blank" rel="noopener noreferrer" >
+                        <FontAwesomeIcon icon={faLinkedin} size="2x" />
+                        </a>
+                        <a href="https://wa.me/0769342644" target="_blank" rel="noopener noreferrer" >
+                        <FontAwesomeIcon icon={faWhatsapp} size="2x" />
+                        </a>
+                    </div>
+                </footer>
                 </div>
             </motion.div>
         </div>

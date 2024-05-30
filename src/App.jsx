@@ -1,4 +1,9 @@
 import { BrowserRouter } from "react-router-dom";
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+
+library.add(fab);
+
 
 import {About, Contact, Experience, Feedbacks, Footer, Hero, Navbar, StarsCanvas, Tech, Works} from './components';
 
