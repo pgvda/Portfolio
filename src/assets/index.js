@@ -31,6 +31,8 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import vidusha from './vidusha.jpeg'
+
 export {
   logo,
   logo2,
@@ -61,4 +63,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  vidusha
 };
